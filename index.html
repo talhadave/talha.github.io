@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>My Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<style>
+		.description {
+			display: none;
+		}
+
+		.fertilizer-description {
+			display: none;
+		}
+
+		.ticTac-description {
+			display: none;
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
+
+		<!-- Intro -->
+		<div id="intro">
+			<h1>Web Developer</h1>
+			<p>Motivated computer science graduate with a strong interest in web development. Proficient in HTML, CSS,
+				JavaScript, and Django, enabling the creation of visually appealing and user-friendly web
+				applications. Demonstrated hands-on experience in building a Stackoverflow-like web app using
+				Django and Djongo. Solid understanding of object-oriented programming with proficiency in Java and
+				C++. Eager to apply skills and drive success in web development with a focus on efficiency and impact.
+			</p>
+			<ul class="actions">
+				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+			</ul>
+		</div>
+
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo">Portfolio</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li class="active"><a href="index.html">This is my portfolio</a></li>
+			</ul>
+			<ul class="icons">
+				<li><a href="https://www.linkedin.com/in/talha-iqbal-2b745a1ab/"
+						class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/talhadave" class="icon brands alt fa-github"><span
+							class="label">GitHub</span></a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Featured Post -->
+			<article class="post featured">
+				<header class="major">
+					<span class="date">September 09, 2022</span>
+					<h2><a href="https://github.com/talhadave/daryaft">Daryaft</a></h2>
+					<p>Daryaft - A Stackoverflow-like Web Application - Developed a web application named Daryaft as
+						part of a
+						summer internship at Arbisoft.
+					</p>
+				</header>
+				<a href="#" class="image main"><img src="images/daryaft.jpg" alt="" /></a>
+				<ul class="actions special">
+					<button class="button large" onclick="showDescription()">Show Description</button>
+				</ul>
+				<div id="description" class="description">
+					<section>
+						<h2>Project Repository:<a href="https://github.com/talhadave/daryaft">GitHub-Daryaft</a></h2>
+						<h2>Description</h2>
+						<p>Daryaft is a Stackoverflow-like web application that
+							I developed as part of a summer internship at Arbisoft.
+							It showcases my proficiency in web development and demonstrates my
+							ability to work with popular frameworks and technologies.</p>
+						<h2>Key Details</h2>
+						<ul>
+							<li>
+								<p>Developed a web application named Daryaft, implementing functionalities similar to
+									Stackoverflow.</p>
+							</li>
+							<li>
+								<p>Utilized Django, a powerful Python web framework, to build the project.</p>
+							</li>
+							<li>
+								<p>Employed Djongo as the backend, enabling seamless integration with postgressql</p>
+							</li>
+							<li>
+								<p>Leveraged Django-templates for the frontend, ensuring a clean and intuitive user
+									interface.</p>
+							</li>
+							<li>
+								<p>Adopted Django's model-view-template (MVT) architecture to defines how the data
+									should be rendered and displayed to the user.</p>
+							</li>
+
+						</ul>
+						<h2>Key Features</h2>
+						<ul>
+
+							<li>
+								<p>User Registration: Implemented a secure and user-friendly registration system.</p>
+							</li>
+							<li>
+								<p>Authentication: Provided robust user authentication mechanisms to ensure data
+									privacy.</p>
+							</li>
+							<li>
+								<p>Question Posting: Enabled users to post questions, facilitating knowledge sharing.
+								</p>
+							</li>
+							<li>
+								<p>Answer Submission: Implemented a feature allowing users to submit answers to
+									questions.</p>
+							</li>
+							<li>
+								<p>Voting Mechanisms: Integrated voting mechanisms to facilitate user interaction and
+									ranking of answers.</p>
+							</li>
+							<li>
+								<p>This project not only showcased my technical skills in web development but also
+									demonstrated my ability to work in a team and meet project deadlines during my
+									internship at Arbisoft.</p>
+							</li>
+						</ul>
+					</section>
+				</div>
+			</article>
+
+			<!-- Posts -->
+			<section class="posts">
+				<article>
+					<header>
+						<span class="date">March 20, 2020</span>
+						<h2><a href="https://github.com/talhadave/Digital-Fertilizer-Recommended-System">Digital
+								Fertilizer Recommended System</a></h2>
+					</header>
+					<a href="#" class="image fit"><img src="images/fertilizer.jpg" alt="" /></a>
+					<p>Developed a Java console application, the "Digital Fertilizer Recommended System," applying
+						principles of
+						Object-Oriented.</p>
+					<ul class="actions special">
+						<button class="button large" onclick="showFertilizerDescription()">Show Description</button>
+					</ul>
+					<div id="fertilizer-description" class="fertilizer-description">
+						<section>
+							<ul>
+								<h2>Description</h2>
+								<li>Developed a Java console application, the "Digital Fertilizer Recommended System,"
+									applying principles of
+									Object-Oriented.</li>
+								<li>Leveraged the concepts of class inheritance, polymorphism, and encapsulation to
+									create a flexible and
+									extensible system architecture.</li>
+								<li>Designed and implemented algorithms to process input data, analyze soil samples, and
+									generate personalized fertilizer recommendations based on specific crop and soil
+									conditions.
+								</li>
+							</ul>
+						</section>
+					</div>
+				</article>
+				<article>
+					<header>
+						<span class="date">November 15, 2021</span>
+						<h2>Tic Tac Toe Game | Python with Artificial Intelligence</h2>
+					</header>
+					<a href="#" class="image fit"><img src="images/ticTac" alt="" /></a>
+					<p>Developed a Tic Tac Toe game as a semester project, incorporating Artificial Intelligence (AI)
+						techniques usin</p>
+					<ul class="actions special">
+						<button class="button large" onclick="ticTacdescription()">Show Description</button>
+					</ul>
+					<div id="ticTac-description" class="ticTac-description">
+						<section>
+							<ul>
+								<h2>Description</h2>
+								<li>Developed a Tic Tac Toe game as a semester project, incorporating Artificial
+									Intelligence (AI) techniques using python</li>
+								<li>raged AI concepts to design an intelligent game-playing agent capable of making
+									optimal moves against human players.</li>
+								<li>Utilized algorithms, such as the minimax algorithm or alpha-beta pruning, to enable
+									the AI player to
+									analyze game states and make strategic decisions.
+								</li>
+								<li>implemented game logic to handle player moves, check for winning conditions, and
+									manage the game flow</li>
+							</ul>
+						</section>
+					</div>
+				</article>
+
+			</section>
+
+			<!-- Footer -->
+
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section class="split contact">
+				<section class="alt">
+					<h3>Address</h3>
+					<p>Abdali road sanatnagar<br />
+						islampura,Lahore, pakistan</p>
+				</section>
+				<section>
+					<h3>Phone</h3>
+					<p><a href="#">(+92) 342-7106973</a></p>
+				</section>
+				<section>
+					<h3>Email</h3>
+					<p><a href="#">talhadev13@gmail.com</a></p>
+				</section>
+				<section>
+					<h3>Social</h3>
+					<ul class="icons alt">
+						<li><a href="https://www.linkedin.com/in/talha-iqbal-2b745a1ab/"
+								class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/talhadave" class="icon brands alt fa-github"><span
+									class="label">GitHub</span></a></li>
+					</ul>
+				</section>
+			</section>
+		</footer>
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul>
+				<li>&copy; Untitled</li>
+				<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		function showDescription() {
+			var description = document.getElementById("description");
+			if (description.style.display === "none") {
+				description.style.display = "block";
+			} else {
+				description.style.display = "none";
+			}
+		}
+	</script>
+	<script>
+		function showFertilizerDescription() {
+			var description = document.getElementById("fertilizer-description");
+			if (description.style.display === "none") {
+				description.style.display = "block";
+			} else {
+				description.style.display = "none";
+			}
+		}
+	</script>
+	<script>
+		function ticTacdescription() {
+			var description = document.getElementById("ticTac-description");
+			if (description.style.display === "none") {
+				description.style.display = "block";
+			} else {
+				description.style.display = "none";
+			}
+		}
+	</script>
+
+
+</body>
+
+</html>
